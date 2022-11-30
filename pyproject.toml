@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "whale-radar"
+version = "0.1.0"
+description = ""
+authors = ["Lee Joonhun <jhlee63@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^22.10.0"
+isort = "^5.10.1"
+pyyaml = "^6.0"
+
+[tool.black]
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
